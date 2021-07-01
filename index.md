@@ -5,6 +5,14 @@ Welcome to my github page. Hope you find what you are looking for.
 
 ## Writeups:
 
+### Pwnable:
+
+#### pwnable.kr:
+  - [fd](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/pwnable/pwnable.kr/fd.md)
+
+#### pwnable.tw:
+  - [orw](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/pwnable/pwnable.tw/orw)
+
 ### Zh3r0CTF:
   - [Maniacs game](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/zh3r0CTF/maniacs_game.md)
   
@@ -14,14 +22,6 @@ Welcome to my github page. Hope you find what you are looking for.
 ### Angstrom CTF 21:
   - [Sanity Checks](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/angrstrom%20ctf%2021/sanity%20checks)
   - [Tranquil](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/angrstrom%20ctf%2021/tranquil)
-
-### pwnable:
-
-#### pwnable.kr:
-  - [fd](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/pwnable/pwnable.kr/fd.md)
-
-#### pwnable.tw:
-  - [orw](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/pwnable/pwnable.tw/orw)
 
 ### tamuctf 21:
   - [Lottery](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/tamuctf%2021/lottery.md)
