@@ -37,8 +37,6 @@ Welcome to my github page. Hope you find what you are looking for.
   - [Bof](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/bof.md)
   - [Check](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/check.md)
   
-
-
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
