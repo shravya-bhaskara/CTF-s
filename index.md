@@ -1,36 +1,41 @@
-## Welcome to GitHub Pages
+# Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/shravya-bhaskara/CTF-s/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to my github page. Hope you find what you are looking for. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Writeups:
 
-### Markdown
+### Zh3r0CTF:
+  -[Maniacs game](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/zh3r0CTF/maniacs_game.md)
+  
+### UDCTF:
+  -[Beef-of-finitude](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/UDCTF/beef-of-finitude.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Angstrom CTF 21:
+  -[Sanity Checks](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/angrstrom%20ctf%2021/sanity%20checks)
+  -[Tranquil](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/angrstrom%20ctf%2021/tranquil)
 
-```markdown
-Syntax highlighted code block
+### pwnable:
 
-# Header 1
-## Header 2
-### Header 3
+#### pwnable.kr:
+  -[fd](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/pwnable/pwnable.kr/fd.md)
 
-- Bulleted
-- List
+#### pwnable.tw:
+  -[orw](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/pwnable/pwnable.tw/orw)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shravya-bhaskara/CTF-s/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### tamuctf 21:
+  -[Lottery](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/tamuctf%2021/lottery.md)
+ 
+### traboda:
+  -[Change-Me](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/Change-Me.md)
+  -[O-Var-Write](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/O-var-write.md)
+  -[OverFlow](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/OverFlow.md)
+  -[OverandOut](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/OverandOut.md)
+  -[Overwrite](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/Overwrite.md)
+  -[Super-safe integers](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/Super-Safe-Integers.md)
+  -[Two-Hammers](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/Two-hammers.md)
+  -[Bof](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/bof.md)
+  -[Check](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/traboda/check.md)
+  
 
 ### Support or Contact
 
