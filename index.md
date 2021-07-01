@@ -11,10 +11,10 @@ Welcome to my github page. Hope you find what you are looking for.
 ## Writeups:
 
 ### Zh3r0CTF:
-  -[Maniacs game](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/zh3r0CTF/maniacs_game.md)
+  - [Maniacs game](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/zh3r0CTF/maniacs_game.md)
   
 ### UDCTF:
-  -[Beef-of-finitude](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/UDCTF/beef-of-finitude.md)
+  - [Beef-of-finitude](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/UDCTF/beef-of-finitude.md)
 
 ### Angstrom CTF 21:
   -[Sanity Checks](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/angrstrom%20ctf%2021/sanity%20checks)
