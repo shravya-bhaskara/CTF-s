@@ -3,6 +3,7 @@
 Okay so this was a ROP based challenge in BSides Noida '21 CTF. At the time of the CTF, I wasn't really able to solve this challenge. However after trying again, I did get a solution.
 
 Before we dive right in, let's check some preliminary conditions and permissions.
+
 ```babystack.out: ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=07e1b7ffbb8cbb81b3b714c0187e30dd5f6e2a0d, for GNU/Linux 3.2.0, not stripped```
 ```
 gdb-peda$ checksec
