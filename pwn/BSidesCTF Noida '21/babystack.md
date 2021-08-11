@@ -36,7 +36,7 @@ Start              End                Perm	Name
 0x00401000         0x0048d000         r-xp	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out
 0x0048d000         0x004b5000         r--p	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out
 0x004b5000         0x004b9000         r--p	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out
-0x004b9000         0x004bc000         rw-p	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out  <-- .bss section with read and write permissions only. 
+0x004b9000         0x004bc000         rw-p	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out  ;(.bss section with rw permissions) 
 0x004bc000         0x004df000         rw-p	[heap]
 0x00007ffff7ffb000 0x00007ffff7ffe000 r--p	[vvar]
 0x00007ffff7ffe000 0x00007ffff7fff000 r-xp	[vdso]
@@ -53,7 +53,7 @@ Start              End                Perm	Name
 0x00401000         0x0048d000         r-xp	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out
 0x0048d000         0x004b5000         r--p	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out
 0x004b5000         0x004b9000         r--p	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out  
-0x004b9000         0x004bc000         rwxp	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out  <--- .bss section with read, write and executable permissions.
+0x004b9000         0x004bc000         rwxp	/home/shravya/bi0s/pwn/bsidesCTF/babystack.out  ;(.bss section with rwx permissions)
 0x004bc000         0x004df000         rw-p	[heap]
 0x00007ffff7ffb000 0x00007ffff7ffe000 r--p	[vvar]
 0x00007ffff7ffe000 0x00007ffff7fff000 r-xp	[vdso]
