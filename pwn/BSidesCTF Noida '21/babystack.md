@@ -28,7 +28,7 @@ As we can see, it is a 64 bit, statically linked file, with canary and nx enable
 ```
 
 From the above decompiled binary, we see the obvious vulnerability "gets" and use of "seccomp" which prevents us from using syscalls other than read, write and open. 
-Upon analyzing the binary further we can find mprotect function which basically changes perissions of the .bss section. This would ajorly help us in writing a shellcode as the .bss section already has permissions for read and write. Making it executable would help us injecting a shellcode. 
+Upon analyzing the binary further we can find mprotect function which basically changes perissions of the .bss section. This would majorly help us in writing a shellcode as the .bss section already has permissions for read and write. Making it executable would help us injecting a shellcode. 
 ```
 gdb-peda$ vmmap
 Start              End                Perm	Name
