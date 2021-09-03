@@ -7,7 +7,7 @@ p = process('./blacklist')
 
 bss = elf.bss()
 
-flag_path =  '/flag\x00\x00\x00'
+flag_path =  '/home/fbi/flag.txt\x00'
 #p = remote('40.71.72.198', 1236)
 
 def __init__(self, prog, ps):
