@@ -4,8 +4,11 @@ This challenge was an easy shellcoding based challenge wherein the constraints w
 
 ## Preliminary ananlysis on the binary:
 - file:
+
 file:///home/shravya/Pictures/Screenshot%20from%202021-10-14%2013-03-54.png![image](https://user-images.githubusercontent.com/59280388/137272155-f94bad4e-e970-4561-8adb-aa0ef79f7dcc.png)
+
 - permissions:
+
 file:///home/shravya/Pictures/Screenshot%20from%202021-10-14%2013-05-08.png![image](https://user-images.githubusercontent.com/59280388/137272340-8f2a629c-ee52-4f90-aeda-a2062791a084.png)
 
 As we can NX is enabled. Rop is another way to approach and solve this problem, however we shall make use of the shellcode as the stack is already executable in nature. 
