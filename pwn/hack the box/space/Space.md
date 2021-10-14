@@ -2,7 +2,7 @@
 
 This challenge was an easy shellcoding based challenge wherein the constraints were length. We had to cleverly make use of a shellcode in order to spawn the shell. To understand better, let's dive right in!
 
-## Preliminary ananlysis on the binary:
+## Preliminary analysis on the binary:
 - file:
 
 ![file](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/hack%20the%20box/space/Screenshot%20from%202021-10-14%2013-03-54.png)
