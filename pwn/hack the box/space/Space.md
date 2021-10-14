@@ -5,11 +5,11 @@ This challenge was an easy shellcoding based challenge wherein the constraints w
 ## Preliminary ananlysis on the binary:
 - file:
 
-file:///home/shravya/Pictures/Screenshot%20from%202021-10-14%2013-03-54.png![image](https://user-images.githubusercontent.com/59280388/137272155-f94bad4e-e970-4561-8adb-aa0ef79f7dcc.png)
+![file](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/hack%20the%20box/space/Screenshot%20from%202021-10-14%2013-03-54.png)
 
 - permissions:
 
-file:///home/shravya/Pictures/Screenshot%20from%202021-10-14%2013-05-08.png![image](https://user-images.githubusercontent.com/59280388/137272340-8f2a629c-ee52-4f90-aeda-a2062791a084.png)
+![permissions](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/hack%20the%20box/space/Screenshot%20from%202021-10-14%2013-05-08.png)
 
 As we can NX is enabled. Rop is another way to approach and solve this problem, however we shall make use of the shellcode as the stack is already executable in nature. 
 
@@ -77,7 +77,7 @@ As we can see, the size of the stack is 0x20, whereas only 0x1f bytes of input d
    To find the buffer size before eip, we shall give a random input buffer of length 0x1f. 
    ```buf = cyclic(0x1e)```
    
-   file:///home/shravya/Pictures/Screenshot%20from%202021-10-14%2014-31-54.png![image](https://user-images.githubusercontent.com/59280388/137286010-409c0c82-f585-48f7-876c-ecec53287009.png)
+   ![context](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/hack%20the%20box/space/Screenshot%20from%202021-10-14%2014-31-54.png)
 
    In the above snippet, for our inp = "aaaabaaacaaadaaaeaaafaaagaaaha", segfault occurs at ```0x61666161```. i.e eip is located after 18 bytes of input data.
    
