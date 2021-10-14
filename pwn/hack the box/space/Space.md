@@ -81,7 +81,7 @@ As we can see, the size of the stack is 0x20, whereas only 0x1f bytes of input d
 
    In the above snippet, for our inp = "aaaabaaacaaadaaaeaaafaaagaaaha", segfault occurs at ```0x61666161```. i.e eip is located after 18 bytes of input data.
    
-   The total size of pur input is only 31 bytes. Which means, we need to split a shellcode in such a way that the first part of the shellcode compromizes the last 9 bytes of our input data. The second part of our shellcode must account for the first 18 bytes of input data.
+   The total size of our input is only 31 bytes. Which means, we need to split a shellcode in such a way that the first part of the shellcode compromizes the last 9 bytes of our input data. The second part of our shellcode must account for the first 18 bytes of input data.
    
    This can be further explained as:
    Consider the shellcode:
@@ -96,10 +96,10 @@ As we can see, the size of the stack is 0x20, whereas only 0x1f bytes of input d
       58                      pop    eax
       cd 80                   int    0x80
    ```
-   The above shellcode is for an x86 execve syscall. We are required to split the shellcode in such a way that:
-    - first 18 bytes: part1 of shellcode
-    - return address (eip) : jmp esp
-    - remaining 9 bytes: part2 of shellcode
+The above shellcode is for an x86 execve syscall. We are required to split the shellcode in such a way that:
+   - first 18 bytes: part1 of shellcode
+   - return address (eip) : jmp esp
+   - remaining 9 bytes: part2 of shellcode
       
    ## Splitting the shellcode:
    
