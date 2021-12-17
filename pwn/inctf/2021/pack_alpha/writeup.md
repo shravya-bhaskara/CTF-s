@@ -1,7 +1,5 @@
 # pack_alpha
 
-  - alpha numeric shellcoding
-
 Challenge Points:
 
 No of Solves:
