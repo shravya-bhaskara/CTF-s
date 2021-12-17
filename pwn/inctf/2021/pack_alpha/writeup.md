@@ -2,8 +2,10 @@
 
   - alpha numeric shellcoding
 
-Challenge Points: 
+Challenge Points:
+
 No of Solves:
+
 Challenge Author: [d1g174l_f0r7r355](https://twitter.com/BhaskaraShravya)
 
 An absoltely beginner friendly shellcoding based challenge I made for InCTF Nationals 2021. 
