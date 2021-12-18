@@ -78,7 +78,7 @@ RELRO     : FULL
 - As we can see, our input buffer is read into `rbp-0x80`. Since the leak provided is nothing but the address of our input buffer string, we will need `0x80` bytes of buffer to fill our stack upto `rbp`. 
 - Another `8` bytes of buffer to fill `rbp` before overwriting `rip` with the stack address. 
 
-Now all we need is an `alpha-numeric shellcode`. Various [shellcodes](http://shell-storm.org/shellcode/) can be found here. But for the sake of solving the challenge, we will design an `alpha-numeric` shellcode instead of choosing one from the above website. 
+Now all we need is an `alpha-numeric shellcode`. Various [shellcodes](http://shell-storm.org/shellcode/) can be found here. But for the sake of solving the challenge, we will design an alpha-numeric shellcode instead of choosing one from the above website. 
 
 ## Alpha-numeric shellcode:
 
