@@ -105,6 +105,7 @@ pop %rdx            \x5a                        Z
 Using the above set of instructions we can start forming our shellcode. We will be making use of the execve syscall to spawn a shell.
 
 ```python=
+# add $0x8, $rsp	; so that we do not overwrite the return pointer on the stack.
 pop %rax
 pop %rax
 
