@@ -54,7 +54,7 @@ RELRO     : FULL
       - The image below shows why this line of code is a vulnerability!
       ![signed_unsigned](https://user-images.githubusercontent.com/59280388/146581940-2c6686e3-c493-40b8-b346-e63fc5026091.png)
       
-      As we see, the unsigned integers contain only a positive range, whereas the signed integers assume both the positive and the negative values. If we pick a number greater than 127, it will simply loop back to the beginning in case of the signed integer. If we pick anumber lesser than -127, it will loop to the end in case of the signed integer. Similar is the case for the unsigned integers.
+      	As we see, the unsigned integers contain only a positive range, whereas the signed integers assume both the positive and the negative values. If we pick a number greater than 127, it will simply loop back to the beginning in case of the signed integer. If we pick anumber lesser than -127, it will loop to the end in case of the signed integer. Similar is the case for the unsigned integers.
       - If one gives a negative number as an input to size, since an unsigned integer is read, it will loop to the end as seen in the figure. As a result they can read as many amount of bytes as they want, and it would still surpass the condition for check of size being less than 96 bytes. 
   - Next we see that the while loop iterates till the last 8 bytes of our input. Inside the while loop, the condition fairly evaluates to:
       - `buf[ind] <=47 || buf[ind] > 57` --> which means our input can have a numeric character!
