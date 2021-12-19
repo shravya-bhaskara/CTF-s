@@ -18,6 +18,13 @@ RELRO     : FULL
 
 ## Analyzing the binary:
 ```
+{
+  char buf[108]; // [rsp+0h] [rbp-80h] BYREF
+  int size; // [rsp+6Ch] [rbp-14h] BYREF
+  char nbytes_7; // [rsp+73h] [rbp-Dh] BYREF
+  char s[10]; // [rsp+76h] [rbp-Ah] BYREF
+
+  ((void (__fastcall *)())((char *)&sub_1288 + 1))();
   puts("Welcome to our wolf camp!\n");
   puts("Please provide us with your personal information and we shall allocate you to your rooms.");
   printf("Email address: ");
@@ -27,27 +34,28 @@ RELRO     : FULL
   getchar();
   printf("Your room number is: %p\n", buf);
   printf("Length of your name: ");
-  __isoc99_scanf("%u", &nbytes);
+  __isoc99_scanf("%u", &size);
   getchar();
-  if ( nbytes > 96 )
+  if ( size > 96 )
   {
     puts("\nWhoa! Such a huge name??\n");
     exit(0);
   }
   printf("Enter your name: ");
-  dword_4050 = read(0, buf, (unsigned int)nbytes);
+  inp_len = read(0, buf, (unsigned int)size);
   fflush(stdin);
-  while ( dword_4050 - 8 > dword_404C )
+  while ( inp_len - 8 > ind )
   {
-    if ( (buf[dword_404C] <= 47 || buf[dword_404C] > 57)
-      && ((*__ctype_b_loc())[buf[dword_404C]] & 0x400) == 0
-      && buf[dword_404C] )
+    if ( (buf[ind] <= 47 || buf[ind] > 57) && ((*__ctype_b_loc())[buf[ind]] & 0x400) == 0 && buf[ind] )
     {
       puts("\nBad character!");
       exit(0);
     }
-    ++dword_404C;
+    ++ind;
   }
+  puts("\nGreat you may move to your rooms and await further instructions.\n");
+  return 0LL;
+}
   ```
   - We see that a stack leak is provided, which is actually the address where our input is stored on the stack. 
   - Since we are reading an unsigned integer `(%u)` into `size` which is originally declared as an integer. 
