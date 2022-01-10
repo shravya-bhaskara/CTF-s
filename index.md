@@ -5,6 +5,25 @@ Welcome to my github page. Hope you find what you are looking for.
 
 ## Writeups:
 
+### InCTF '21:
+  - [viserions_call](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/inctf/2021/viserions_call)
+  - [theBet](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/inctf/2021/theBet)
+  - [leaky_pipes](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/inctf/2021/leaky_pipes)
+  - [badRace](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/inctf/2021/badRace)
+  - [pack_alpha](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/inctf/2021/pack_alpha)
+  - [bufferUp](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/inctf/2021/bufferUp)
+
+### hack the box:
+  - [space](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/hack%20the%20box/space)
+
+### Format Strings:
+  - [Library](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/format%20strings/Library)
+
+### HitcoinCTF '17:
+  - [atifact](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/ROP%20challs/artifact.py)
+
+### BSidesCTF Noida '21:
+  - [babystack](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/BSidesCTF%20Noida%20'21/babystack.md)
 ### Pwnable:
 
 #### pwnable.kr:
@@ -14,7 +33,7 @@ Welcome to my github page. Hope you find what you are looking for.
   - [orw](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/tree/main/pwn/pwnable/pwnable.tw/orw)
 
 ### Zh3r0CTF:
-  - [Maniacs game](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/zh3r0CTF/maniacs_game.md)
+  - [Maniacs game](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/zh3r0CTF/maniacs_game.md)
   
 ### UDCTF:
   - [Beef-of-finitude](https://github.com/shravya-bhaskara/shravya-bhaskara.github.io/blob/main/pwn/UDCTF/beef-of-finitude.md)
